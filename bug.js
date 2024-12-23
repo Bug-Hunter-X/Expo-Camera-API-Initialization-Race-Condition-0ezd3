@@ -1,0 +1,1 @@
+This error occurs when using the Expo Camera API and trying to access the camera's features before the camera has fully initialized.  This often happens when you try to access camera properties or start recording immediately within the `Camera` component's `onCameraReady` callback.  The camera might still be initializing even after this callback has fired.
